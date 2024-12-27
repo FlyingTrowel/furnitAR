@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:furnitar/pages/get_started_page.dart';
 import 'package:furnitar/pages/home_page.dart';
 import 'package:furnitar/pages/ar_page.dart';
+import 'package:furnitar/pages/test.dart';
 
 void main() {
 
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => GetStartedPage(),
         '/home': (context) => HomePage(),
-        '/ar': (context) => ARPage(),
+        '/ar': (context) => Test(),
       },
     );
   }

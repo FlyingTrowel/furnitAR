@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:furnitar/ar_bridge.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -42,6 +43,9 @@ class HomePage extends StatelessWidget {
                   arguments: furnitureList[index]['model'],
                 );
               },
+              // onTap: () async {
+              //   await ARBridge.openARScreen();
+              // },
               child: Container(
                 child: Text('${furnitureList[index]['model']}'),
               ),
